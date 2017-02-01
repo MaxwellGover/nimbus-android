@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
-		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
-		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
-		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00C302E51ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		00C302E71ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		00C302E81ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		00C302E91ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		00C302EA1ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* NimbusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NimbusTests.m */; };
-		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
-		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
-		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		133E29F31AD74F7200F7D852 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		139105C61AF99C1200B5F7CC /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		139FDEF61B0652A700C62182 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		140ED2AC1D01E1AD002B40FF /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		146834051AC3E58100842450 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		5E9157361DD0AC6A00FF2AA8 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		832341BD1AAA6AB300B99B32 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		8A0DFF93A8E3E1B9B4413200 /* Pods_NimbusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0354B42F0ED4DB90AA02FA /* Pods_NimbusTests.framework */; };
+		99A3F8D75EAFBC5FA76E5B15 /* Pods_Nimbus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ACFE0EA3C5B25B30FD8CFE /* Pods_Nimbus.framework */; };
+		F214E473F72D4F199306F5C9 /* libFirestack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592C481B58DB4F90A7ED43F3 /* libFirestack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,9 +234,17 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Nimbus/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Nimbus/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1495E0440F6E8DC8C769BD7D /* Pods-NimbusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimbusTests/Pods-NimbusTests.release.xcconfig"; sourceTree = "<group>"; };
+		592C481B58DB4F90A7ED43F3 /* libFirestack.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libFirestack.a; path = libFirestack.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		71A520B5E5A9D441E7CBFE94 /* Pods-NimbusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimbusTests/Pods-NimbusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8598EEE92BA59510CB2E584D /* Pods-Nimbus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimbus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nimbus/Pods-Nimbus.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A0043CA319699D10F99495 /* Pods-Nimbus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimbus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nimbus/Pods-Nimbus.release.xcconfig"; sourceTree = "<group>"; };
+		BB0354B42F0ED4DB90AA02FA /* Pods_NimbusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ACFE0EA3C5B25B30FD8CFE /* Pods_Nimbus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimbus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAB750F400E4FDDA1AEF06D /* Firestack.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = Firestack.xcodeproj; path = "../node_modules/react-native-firestack/ios/Firestack.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,7 +252,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				140ED2AC1D01E1AD002B40FF /* ReferenceProxy in Frameworks */,
+				8A0DFF93A8E3E1B9B4413200 /* Pods_NimbusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +261,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
-				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* ReferenceProxy in Frameworks */,
+				146834051AC3E58100842450 /* ReferenceProxy in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
+				133E29F31AD74F7200F7D852 /* ReferenceProxy in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
+				139105C61AF99C1200B5F7CC /* ReferenceProxy in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* ReferenceProxy in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
+				139FDEF61B0652A700C62182 /* ReferenceProxy in Frameworks */,
+				F214E473F72D4F199306F5C9 /* libFirestack.a in Frameworks */,
+				99A3F8D75EAFBC5FA76E5B15 /* Pods_Nimbus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +418,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				EEAB750F400E4FDDA1AEF06D /* Firestack.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -424,6 +439,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* NimbusTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				A019BF0254178CDDFE509FF5 /* Pods */,
+				F8FCB67EA5D1F4E10719C27B /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -438,6 +455,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A019BF0254178CDDFE509FF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8598EEE92BA59510CB2E584D /* Pods-Nimbus.debug.xcconfig */,
+				B4A0043CA319699D10F99495 /* Pods-Nimbus.release.xcconfig */,
+				71A520B5E5A9D441E7CBFE94 /* Pods-NimbusTests.debug.xcconfig */,
+				1495E0440F6E8DC8C769BD7D /* Pods-NimbusTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8FCB67EA5D1F4E10719C27B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1ACFE0EA3C5B25B30FD8CFE /* Pods_Nimbus.framework */,
+				BB0354B42F0ED4DB90AA02FA /* Pods_NimbusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -445,9 +482,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NimbusTests" */;
 			buildPhases = (
+				52B67B6579A091103D4C4B9C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				C0306E500CC6FBB5A575FB07 /* [CP] Embed Pods Frameworks */,
+				CC69D2FECCF922CC01276F47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -463,10 +503,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Nimbus" */;
 			buildPhases = (
+				6B3DA5F2084BC927801BBA37 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8D855B33A0453127217B4294 /* [CP] Embed Pods Frameworks */,
+				13C5FDBB27D048E8CE565976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,7 +526,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -769,6 +812,96 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		13C5FDBB27D048E8CE565976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimbus/Pods-Nimbus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52B67B6579A091103D4C4B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3DA5F2084BC927801BBA37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D855B33A0453127217B4294 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimbus/Pods-Nimbus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0306E500CC6FBB5A575FB07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbusTests/Pods-NimbusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC69D2FECCF922CC01276F47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbusTests/Pods-NimbusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -814,6 +947,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A520B5E5A9D441E7CBFE94 /* Pods-NimbusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -823,6 +957,10 @@
 				INFOPLIST_FILE = NimbusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbus.app/Nimbus";
 			};
@@ -830,12 +968,17 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1495E0440F6E8DC8C769BD7D /* Pods-NimbusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = NimbusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbus.app/Nimbus";
 			};
@@ -843,6 +986,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8598EEE92BA59510CB2E584D /* Pods-Nimbus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -861,6 +1005,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A0043CA319699D10F99495 /* Pods-Nimbus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
