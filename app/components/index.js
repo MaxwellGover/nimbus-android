@@ -1,1 +1,1 @@
-export Splash from './Splash/Splash'
+export { Splash }  from './Splash/Splash'

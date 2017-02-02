@@ -6,16 +6,16 @@ export default class NimbusNavigator extends Component {
 	renderScene = (route, navigator) => {
 		return <SplashContainer navigator={navigator} />
 	}
-	configureScene (route) => {
+	configureScene = (route) => {
 
 	}
 	render () {
-		return {
-			<Navigator 
+		return (
+			<Navigator
 				initialRoute={{}}
 				renderScene={this.renderScene}
 				configureScene={this.configureScene}
 			/>
-		}
+		)
 	}
 }
