@@ -4,8 +4,8 @@ import { Splash } from '~/components'
 
 export default class SplashContainer extends Component {
 	render () {
-		return {
+		return (
 			<Splash />
-		}
+		)
 	}
 }
