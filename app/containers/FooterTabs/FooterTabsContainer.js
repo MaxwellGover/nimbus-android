@@ -15,7 +15,7 @@ class FooterTabsContainer extends Component {
 		return (
 			<FooterTabs 
 				activeFooterTab={this.props.activeFooterTab}
-				onTabSelect={(tab) => {this.props.dispatch(activeFooterTab(tab))}}
+				onTabSelect={(tab) => {this.props.dispatch(setFooterTab(tab))}}
 				navigator={this.props.navigator}
 			/>
 		)
