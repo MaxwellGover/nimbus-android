@@ -12,6 +12,7 @@ FooterTabs.propTypes = {
 export default function FooterTabs (props) {
 	console.log(props);
 	const closeDrawer = () => this.drawer.closeDrawer()
+	const openDrawer = () => this.drawer.openDrawer()
 	return (
 		<DrawerLayoutAndroid
 			ref={(drawer) => this.drawer = drawer}
@@ -24,8 +25,8 @@ export default function FooterTabs (props) {
 				/>
 		)}>
 			{props.activeFooterTab === 'home'
-				? <HomeContainer navigator={props.navigator}/>
-				: <TrackLibraryContainer navigator={props.navigator}/>
+				? <HomeContainer openDrawer={openDrawer} navigator={props.navigator}/>
+				: <TrackLibraryContainer openDrawer={openDrawer} navigator={props.navigator}/>
 			}
 		</DrawerLayoutAndroid>
 	)
