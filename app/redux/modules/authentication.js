@@ -4,7 +4,7 @@
 
 const initialState = {
 	isAuthed: false,
-	isAuthenticating: true,
+	isAuthenticating: false,
 	authedId: ''
 }
 
