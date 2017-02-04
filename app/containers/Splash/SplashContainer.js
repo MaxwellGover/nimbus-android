@@ -5,10 +5,11 @@ import { Splash } from '~/components'
 export default class SplashContainer extends Component {
 	handleSignIn = () => {
 		// Sign in user with Twitter
+		console.log("Signing in user with Twitter")
 	}
 	render () {
 		return (
-			<Splash />
+			<Splash handleSignIn={this.handleSignIn}/>
 		)
 	}
 }

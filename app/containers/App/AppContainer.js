@@ -8,7 +8,12 @@ import { PreSplash } from '~/components'
 class AppContainer extends Component {
 	// Document props this component is receiving
 	static propTypes = {
-		isAuthenticating: PropTypes.bool.isRequired
+		isAuthenticating: PropTypes.bool.isRequired,
+		isAuthed: PropTypes.bool.isRequired
+	}
+	componentDidMount () {
+		// When App initializes check whether user is authenticated or not. 
+		
 	}
 	render () {
 		return (
@@ -18,7 +23,7 @@ class AppContainer extends Component {
 				*/}
 				{this.props.isAuthenticating === true
 					? <PreSplash />
-					: <NimbusNavigator />
+					: <NimbusNavigator isAuthed={this.props.isAuthed}/>
 				}
 			</View>
 		)
@@ -29,7 +34,8 @@ class AppContainer extends Component {
 function mapStateToProps ({authentication}) {
 	return {
 		// Props added below will go in as props to AppContainer component
-		isAuthenticating: authentication.isAuthenticating
+		isAuthenticating: authentication.isAuthenticating,
+		isAuthed: authentication.isAuthed
 	}
 }
 
