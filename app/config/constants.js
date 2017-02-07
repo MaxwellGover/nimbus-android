@@ -1,11 +1,11 @@
 import firebase from 'firebase'
 
 firebase.initializeApp({
-    apiKey: "AIzaSyAkFIFhHAnCx3noJjS0rKkZifisXa-Uprc",
-    authDomain: "nimbus-53d0f.firebaseapp.com",
-    databaseURL: "https://nimbus-53d0f.firebaseio.com",
-    storageBucket: "nimbus-53d0f.appspot.com",
-    messagingSenderId: "581128088752"
+    apiKey: "AIzaSyCdf33DKFogszzji-RILe2b7xrxMq6l0Ik",
+    authDomain: "nimbus-c7e27.firebaseapp.com",
+    databaseURL: "https://nimbus-c7e27.firebaseio.com",
+    storageBucket: "nimbus-c7e27.appspot.com",
+    messagingSenderId: "328906360268"
 });
 
 const ref = firebase.database().ref()

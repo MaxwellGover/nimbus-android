@@ -4,6 +4,8 @@ import { View } from 'react-native'
 import { connect } from 'react-redux'
 import { NimbusNavigator } from '~/containers'
 import { PreSplash } from '~/components'
+import { firebaseAuth } from '~/config/constants'
+import { onAuthChange } from '~/redux/modules/authentication'
 
 class AppContainer extends Component {
 	// Document props this component is receiving
@@ -13,7 +15,7 @@ class AppContainer extends Component {
 	}
 	componentDidMount () {
 		// When App initializes check whether user is authenticated or not. 
-		
+		firebaseAuth.onAuthStateChanged((user) => this.props.dispatch(onAuthChange(user)))
 	}
 	render () {
 		return (

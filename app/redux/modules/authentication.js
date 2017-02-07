@@ -6,6 +6,7 @@ const IS_AUTHED = 'IS_AUTHED'
 
 import firebase from 'firebase'
 import { firebaseAuth } from '~/config/constants'
+import OAuthManager from 'react-native-oauth';
 
 // Action creators 
 
@@ -32,28 +33,36 @@ export function handleAuthWithFirebase () {
 	// Redux thunk allowing us to do some async stuff by returning another function
 	return function (dispatch, getState) {
 		dispatch(authenticating())
-		var provider = new firebase.auth.TwitterAuthProvider()
-		firebaseAuth.signInWithRedirect(provider)
-		firebase.auth().getRedirectResult().then(function(result) {
-  			if (result.credential) {
-   			// This gives you a the Twitter OAuth 1.0 Access Token and Secret.
-    		// You can use these server side with your app's credentials to access the Twitter API.
-    		var token = result.credential.accessToken;
-    		var secret = result.credential.secret;
-    		// ...
-  		}
-  			// The signed-in user info.
-  			var user = result.user;
-		}).catch(function(error) {
-  			// Handle Errors here.
-  			var errorCode = error.code;
-  			var errorMessage = error.message;
-  			// The email of the user's account used.
-  			var email = error.email;
-  			// The firebase.auth.AuthCredential type that was used.
-  			var credential = error.credential;
-  			// ...
-		});
+		const manager = new OAuthManager('Nimbus')
+		const config =  {
+  			twitter: {
+    			consumer_key: '2IboL8koeWm8dJxBAG92nY99n',
+    			consumer_secret: 'QP2pkjmFtXzvX5BpEaHIwlGj709BCZBPD5sF3YbTiA00pcnksq'
+  			},
+		}
+		manager.configure(config);
+        manager.authorize('twitter', {scopes: 'profile email'})
+            .then(resp => {
+            	firebaseAuth.signInWithCustomToken(resp.response.credentials.access_token).catch(error => {
+  					// Handle Errors here.
+  					var errorCode = error.code;
+  					var errorMessage = error.message;
+  					// ...
+				});
+            })
+            .catch(err => console.log('There was an error'));
+	}
+}
+
+// Check to see if user is authed and set initial state accordingly.
+export function onAuthChange (user) {
+	return function (dispatch) {
+		if (!user) {
+			dispatch(notAuthed())
+		} else {
+			const { providerData, uid } = user
+			dispatch(isAuthed(uid))
+		}
 	}
 }
 
@@ -61,7 +70,7 @@ export function handleAuthWithFirebase () {
 
 const initialState = {
 	isAuthed: false,
-	isAuthenticating: false,
+	isAuthenticating: true,
 	authedId: ''
 }
 
