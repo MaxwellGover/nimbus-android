@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 import { Splash } from '~/components'
 import { FooterTabs } from '~/components'
 import { connect } from 'react-redux'
+// Import setFooterTab function to allow presentational component to change tabs.
 import { setFooterTab } from '~/redux/modules/activeFooterTab'
 
 class FooterTabsContainer extends Component {
@@ -12,11 +13,13 @@ class FooterTabsContainer extends Component {
 		navigator: PropTypes.object.isRequired
 	}
 	render () {
+		console.log(this.props)
 		return (
 			<FooterTabs 
+				navigator={this.props.navigator} 
 				activeFooterTab={this.props.activeFooterTab}
-				onTabSelect={(tab) => {this.props.dispatch(setFooterTab(tab))}}
-				navigator={this.props.navigator}
+				dispatch={this.props.dispatch}
+				setFooterTab={setFooterTab}
 			/>
 		)
 	}

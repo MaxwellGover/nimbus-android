@@ -15,7 +15,7 @@ class AppContainer extends Component {
 	}
 	componentDidMount () {
 		// When App initializes check whether user is authenticated or not. 
-		firebaseAuth.onAuthStateChanged((user) => this.props.dispatch(onAuthChange(user)))
+		// firebaseAuth.onAuthStateChanged((user) => this.props.dispatch(onAuthChange(user)))
 	}
 	render () {
 		return (

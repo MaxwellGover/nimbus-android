@@ -69,8 +69,8 @@ export function onAuthChange (user) {
 // Set initial state
 
 const initialState = {
-	isAuthed: false,
-	isAuthenticating: true,
+	isAuthed: true, // Change back to false
+	isAuthenticating: false, // Change back to true
 	authedId: ''
 }
 
