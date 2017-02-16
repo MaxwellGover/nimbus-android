@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PropTypes, Component } from 'react';
 import {
   Dimensions,
   StyleSheet,
@@ -8,7 +8,10 @@ import {
 } from 'react-native';
 import Camera from 'react-native-camera';
 
-class NimbusCamera extends Component {
+export default class NimbusCamera extends Component {
+  static propTypes = {
+    navigator: PropTypes.object.isRequired
+  }
   render() {
     return (
       <View style={styles.container}>
