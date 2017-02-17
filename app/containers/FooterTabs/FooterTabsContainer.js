@@ -13,7 +13,6 @@ class FooterTabsContainer extends Component {
 		navigator: PropTypes.object.isRequired
 	}
 	render () {
-		console.log(this.props)
 		return (
 			<FooterTabs 
 				navigator={this.props.navigator} 

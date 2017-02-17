@@ -4,7 +4,6 @@ import { HomeContainer, TrackLibraryContainer } from '~/containers'
 import { NimbusCamera } from '~/components'
 
 export default function FooterTabs (props) {
-	console.log(props)
 	FooterTabs.propTypes = {
 		navigator: PropTypes.object.isRequired,
 		dispatch: PropTypes.func.isRequired,
@@ -35,7 +34,7 @@ export default function FooterTabs (props) {
 				selected={props.activeFooterTab === "library"}
 				titleStyle={{fontWeight: 'bold', fontSize: 10}}
 				selectedTitleStyle={{marginTop: -1, marginBottom: 6}}
-				title="Available Streams"
+				title="Library"
 				onPress={(tab) => props.dispatch(props.setFooterTab("library"))}
 				renderIcon={() => <Icon containerStyle={{justifyContent: 'center', alignItems: 'center', marginTop: 12}} color={'#5e6977'} type="ionicon" name='ios-musical-notes-outline' size={33} />}>
 			<TrackLibraryContainer navigator={props.navigator}/>
