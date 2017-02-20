@@ -30,8 +30,8 @@ class NimbusCamera extends Component {
   }
   startTimer = () => {
     console.log('Starting timer...')
-    let timerId = setInterval(countdown, 1000);
-    function countdown () {
+    const countdown = () => {
+      console.log('Running countdown...')
       if (this.state.timeLeft === 0) {
         clearTimeout(timerId);
         this.setState({isRecording: false})
@@ -42,6 +42,7 @@ class NimbusCamera extends Component {
         this.setState({timeLeft: this.state.timeLeft - 1});
       }   
     }
+    let timerId = setInterval(countdown, 1000);
   }
   render() {
     console.log(this.state)
@@ -69,10 +70,10 @@ class NimbusCamera extends Component {
 
   startRecording = () => {
     if (this.camera) {
+      this.startTimer();
       this.camera.capture({mode: Camera.constants.CaptureMode.video})
           .then((data) => this.props.dispatch(getPath(data.path)))
           .catch(err => console.error(err));
-      this.startTimer();
       this.setState({
         isRecording: true
       });
@@ -85,6 +86,9 @@ class NimbusCamera extends Component {
       this.setState({
         isRecording: false
       });
+      this.props.navigator.push({
+        name: 'Preview'
+      })
     }
   }
 
