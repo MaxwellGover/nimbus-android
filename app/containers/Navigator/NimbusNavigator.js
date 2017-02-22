@@ -10,7 +10,7 @@ export default class NimbusNavigator extends Component {
 	renderScene = (route, navigator) => {
 		if (this.props.isAuthed === false) {
 			return <SplashContainer navigator={navigator} />
-		} else if (route.name === 'Preview') {
+		} else if (route.preview === true) {
 			return <Preview navigator={navigator} />
 		}
 		return <FooterTabsContainer navigator={navigator} />

@@ -87,7 +87,7 @@ class NimbusCamera extends Component {
         isRecording: false
       });
       this.props.navigator.push({
-        name: 'Preview'
+        preview: true
       })
     }
   }
